@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hola, soy el Alumno A</h1>
+    <h2>Estudiante de Programacion Web</h2>
+
+    <img src="https://images.icon-icons.com/1846/PNG/512/student3_116217.png" alt="imagen-perfil" style="height: 80px;">
+    
+    <p>Bienvenido a mi perfil! Por favor, completa este formulario para conocerte mejor.</p>
+    
+    <form action="FormularioB.html">
+      <label for="nombre">Nombre completo:</label><br>
+      <input type="text" id="nombre" name="nombre"><br><br>
+
+      <label for="edad">Edad:</label><br>
+      <input type="number" id="edad" name="edad"><br><br>
+
+      <label for="correo">Correo electrónico:</label><br>
+      <input type="email" id="correo" name="correo"><br><br>
+
+      <p>¿Eres nuevo en programación?</p>
+      <input type="radio" id="nuevo_si" name="nuevo" value="si">
+      <label for="nuevo_si">Sí</label><br>
+      <input type="radio" id="nuevo_no" name="nuevo" value="no">
+      <label for="nuevo_no">No</label><br><br>
+
+      <label for="lenguaje">¿Qué lenguaje te interesa?</label><br>
+      <input type="text" id="lenguaje" name="lenguaje"><br><br>
+
+      <p>Temas que te gustaría aprender:</p>
+      <input type="checkbox" id="html" name="temas" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="checkbox" id="css" name="temas" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="checkbox" id="js" name="temas" value="JavaScript">
+      <label for="js">JavaScript</label><br><br>
+
+      <label for="motivo">¿Por qué te interesa la programación?</label><br>
+      <textarea id="motivo" name="motivo" rows="4" cols="40"></textarea><br><br>
+
+      <label for="horario">¿En qué horario prefieres estudiar?</label><br>
+      <select id="horario" name="horario">
+        <option value="mañana">Mañana</option>
+        <option value="tarde">Tarde</option>
+        <option value="noche">Noche</option>
+      </select><br><br>
+
+      <input type="submit" value="Enviar y ver perfil del Alumno B">
+    </form>    
+  </body>
+</html>
